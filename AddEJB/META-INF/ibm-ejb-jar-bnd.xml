@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar-bnd
+        xmlns="http://websphere.ibm.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-ejb-jar-bnd_1_0.xsd"
+        version="1.0">
+
+    <!--  Can be called by "ejblocal:nab/addService"                                                            -->
+    <!--  Value for "name" attribute of <session> must match the one defined in @EJB(beanName = "AddServiceEJB"  -->
+    <session name="AddServiceEJB" simple-binding-name="nab/addService"/>
+
+</ejb-jar-bnd>
+
+

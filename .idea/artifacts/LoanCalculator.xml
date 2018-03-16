@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="LoanCalculator">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <root id="archive" name="LoanCalculator.ear">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/LoanCalculator_App/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/LoanCalculator_App/META-INF/ibm-application-bnd.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/LoanCalculator_App/META-INF/application.xml" />
+      </element>
+      <element id="artifact" artifact-name="LoanCalculator:war" />
+    </root>
+  </artifact>
+</component>

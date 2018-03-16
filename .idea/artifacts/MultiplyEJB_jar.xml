@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MultiplyEJB:jar">
+    <output-path>$PROJECT_DIR$/artifacts/interfaces</output-path>
+    <root id="archive" name="MultiplyEJB.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="thenational">
+          <element id="directory" name="ejb">
+            <element id="directory" name="local">
+              <element id="dir-copy" path="$PROJECT_DIR$/out/production/MultiplyEJB/com/thenational/ejb/local" />
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

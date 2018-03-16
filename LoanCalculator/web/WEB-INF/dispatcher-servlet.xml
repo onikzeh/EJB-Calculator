@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="/calculate" class="thenational.LoanController">
+        <constructor-arg>
+            <ref bean="add"/>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="multiply"/>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="deviderRemote"/>
+        </constructor-arg>
+        <constructor-arg>
+            <ref bean="deviderLocal"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="add" class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean" lazy-init="true" >
+        <property name="jndiName" value="ejblocal:nab/addService"/>
+        <property name="businessInterface" value="com.thenational.ejb.local.AddLocal" />
+        <property name="lookupHomeOnStartup" value="false"/>
+        <property name="cacheHome" value="true"/>
+    </bean>
+
+    <bean id="multiply" class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean" lazy-init="true" >
+        <property name="jndiName" value="ejblocal:nab/multiplyService"/>
+        <property name="businessInterface" value="com.thenational.ejb.local.MultiplyLocal" />
+        <property name="lookupHomeOnStartup" value="false"/>
+        <property name="cacheHome" value="true"/>
+    </bean>
+
+    <bean id="deviderLocal" class="org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean" lazy-init="true" >
+        <property name="jndiName" value="ejblocal:nab/devideService"/>
+        <property name="businessInterface" value="com.thenational.ejb.local.DevideLocal" />
+        <property name="lookupHomeOnStartup" value="false"/>
+        <property name="cacheHome" value="true"/>
+    </bean>
+
+    <bean id="deviderRemote" class="org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean" lazy-init="true">
+        <property name="jndiName" value="ejb/devide" />
+        <property name="businessInterface" value="com.thenational.ejb.remote.DevideRemote" />
+        <property name="lookupHomeOnStartup" value="false"/>
+        <property name="cacheHome" value="true"/>
+        <property name="refreshHomeOnConnectFailure" value="true"/>
+        <property name="resourceRef" value="true"/>
+    </bean>
+    <!--DevideLocal devideLocal = ((DevideLocal) context.lookup("ejblocal:nab/devideService"));-->
+    <!--DevideRemote devideRemote = ((DevideRemote) context.lookup("nab/devideService"));-->
+    <!--DevideLocal devideLocal = (DevideLocal) context.lookup("ejblocal:nab/devideService");-->
+    <!--DevideLocal devideLocalGlobal =-->
+    <!--(DevideLocal) context.lookup("java:global/Devide_EJB/DevideEJB_ejb/MyDevideBean!com.thenational.ejb.local.DevideLocal");-->
+
+    <!--DevideRemote devideRemote = (DevideRemote) context.lookup("nab/devideService");-->
+    <!--DevideRemote devideRemoteGlobal =-->
+    <!--(DevideRemote) context.lookup("java:global/Devide_EJB/DevideEJB_ejb/MyDevideBean!com.thenational.ejb.remote.DevideRemote");-->
+
+</beans>

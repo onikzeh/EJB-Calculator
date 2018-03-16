@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd"
+             version="5">
+
+    <description>Contains Devide Module</description>
+    <display-name>Devide_EJB</display-name>
+
+    <module id="Devide_EJB_Module_ID">
+        <ejb>DevideEJB_ejb.jar</ejb>
+    </module>
+
+</application>

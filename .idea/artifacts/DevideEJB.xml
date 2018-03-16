@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="DevideEJB">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <root id="archive" name="DevideEJB.ear">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/DevideEJB_App/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="artifact" artifact-name="DevideEJB:ejb" />
+      <element id="javaee-facet-resources" facet="DevideEJB_App/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

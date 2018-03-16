@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: Common Utils
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: Utils 1.0.0
+Class-Path: commons-lang-2.6.jar
+

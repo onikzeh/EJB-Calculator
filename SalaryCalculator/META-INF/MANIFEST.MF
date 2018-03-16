@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Salary Calculator Module
+Implementation-Version: 1.0.2
+Implementation-Vendor-Id: com.thenational
+

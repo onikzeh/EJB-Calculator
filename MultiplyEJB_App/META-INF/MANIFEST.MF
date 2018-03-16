@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Multiply EJB App
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: Multiply 1.0.0

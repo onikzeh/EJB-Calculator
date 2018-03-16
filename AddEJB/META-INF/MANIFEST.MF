@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Add EJB Module
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: 1.0.1
+Class-Path: commons-lang-2.6.jar /

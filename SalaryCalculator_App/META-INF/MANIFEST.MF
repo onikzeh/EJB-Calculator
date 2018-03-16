@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Salary Calculator App
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: Salary Calculator 1.0.0

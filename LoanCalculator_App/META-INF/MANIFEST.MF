@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Loan Calculator App
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: Loan Calculator 1.0.0

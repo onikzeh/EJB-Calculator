@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" build-on-make="true" name="AddEJB:ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/AddEJB_ejb</output-path>
+    <root id="archive" name="AddEJB_ejb.jar">
+      <element id="artifact" artifact-name="AddEJB:ejb exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/AddEJB/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/AddEJB/META-INF/ibm-ejb-jar-bnd.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

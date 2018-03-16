@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="MultiplyEJB">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <root id="archive" name="MultiplyEJB.ear">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/MultiplyEJB_App/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="artifact" artifact-name="MultiplyEJB:ejb" />
+      <element id="javaee-facet-resources" facet="MultiplyEJB_App/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

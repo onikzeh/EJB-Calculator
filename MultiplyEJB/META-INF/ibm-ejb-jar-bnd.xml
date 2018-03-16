@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar-bnd
+        xmlns="http://websphere.ibm.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-ejb-jar-bnd_1_0.xsd"
+        version="1.0">
+
+    <!--  Can be called by "ejblocal:nab/multiplyService"                                                            -->
+    <!--  Value for "name" attribute of <session> must match the one defined in ejb-jar.xml for <session><ejb-name>  -->
+    <session name="MultiplyServiceEJB" simple-binding-name="nab/multiplyService"/>
+
+</ejb-jar-bnd>
+
+

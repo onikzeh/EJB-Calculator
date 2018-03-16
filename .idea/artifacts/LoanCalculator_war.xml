@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="LoanCalculator:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoanCalculator_war</output-path>
+    <root id="archive" name="LoanCalculator.war">
+      <element id="artifact" artifact-name="LoanCalculator:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/LoanCalculator/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" build-on-make="true" name="MultiplyEJB:ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultiplyEJB_ejb</output-path>
+    <root id="archive" name="MultiplyEJB_ejb.jar">
+      <element id="artifact" artifact-name="MultiplyEJB:ejb exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/MultiplyEJB/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/MultiplyEJB/META-INF/ibm-ejb-jar-bnd.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

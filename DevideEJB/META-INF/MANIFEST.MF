@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Devide EJB Module
+Implementation-Version: 1.0.1
+Implementation-Vendor-Id: com.thenational
+

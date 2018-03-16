@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="AddEJB">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <root id="archive" name="AddEJB.ear">
+      <element id="artifact" artifact-name="AddEJB:ejb" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Apache commons" />
+      </element>
+      <element id="javaee-facet-resources" facet="AddEJB_App/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/AddEJB_App/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

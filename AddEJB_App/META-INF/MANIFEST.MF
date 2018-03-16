@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Add EJB App
+Implementation-Vendor-Id: com.thenational
+Implementation-Version: Add 1.0.0

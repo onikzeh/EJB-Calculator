@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="LoanCalculator:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoanCalculator_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LoanCalculator/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LoanCalculator" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

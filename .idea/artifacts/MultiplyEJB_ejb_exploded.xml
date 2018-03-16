@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" build-on-make="true" name="MultiplyEJB:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultiplyEJB_ejb_exploded</output-path>
+    <root id="root">
+      <element id="module-output" name="MultiplyEJB" />
+      <element id="javaee-facet-resources" facet="MultiplyEJB/ejb/EJB" />
+    </root>
+  </artifact>
+</component>

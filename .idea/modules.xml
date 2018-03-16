@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddEJB/AddEJB.iml" filepath="$PROJECT_DIR$/AddEJB/AddEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AddEJB_App/AddEJB_App.iml" filepath="$PROJECT_DIR$/AddEJB_App/AddEJB_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonUtils/CommonUtils.iml" filepath="$PROJECT_DIR$/CommonUtils/CommonUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevideEJB/DevideEJB.iml" filepath="$PROJECT_DIR$/DevideEJB/DevideEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevideEJB_App/DevideEJB_App.iml" filepath="$PROJECT_DIR$/DevideEJB_App/DevideEJB_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoanCalculator/LoanCalculator.iml" filepath="$PROJECT_DIR$/LoanCalculator/LoanCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoanCalculator_App/LoanCalculator_App.iml" filepath="$PROJECT_DIR$/LoanCalculator_App/LoanCalculator_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiplyEJB/MultiplyEJB.iml" filepath="$PROJECT_DIR$/MultiplyEJB/MultiplyEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiplyEJB_App/MultiplyEJB_App.iml" filepath="$PROJECT_DIR$/MultiplyEJB_App/MultiplyEJB_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalaryCalculator/SalaryCalculator.iml" filepath="$PROJECT_DIR$/SalaryCalculator/SalaryCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SalaryCalculator_App/SalaryCalculator_App.iml" filepath="$PROJECT_DIR$/SalaryCalculator_App/SalaryCalculator_App.iml" />
+    </modules>
+  </component>
+</project>
